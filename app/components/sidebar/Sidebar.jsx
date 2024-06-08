@@ -1,12 +1,16 @@
 "use client";
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 
 function Sidebar() {
   return (
-    <div>
+    <SidebarStyled>
       Sidebar
-    </div>
+    </SidebarStyled>
   )
 }
 
-export default Sidebar
+const SidebarStyled = styled.nav`
+`;
+
+export default Sidebar;
